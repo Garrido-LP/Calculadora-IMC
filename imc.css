@@ -35,22 +35,15 @@ h5 {
     
 }
 
-#sex1{
+#sex1,
+#sex2{
     width : 190px;
-    height :25px;
+    height :35px;
     background-color:#fffafa;
     border : 2px solid #d2b48c;
     position : right;
     border-radius : 4px;
-}
-
-#sex2 {
-    width : 190px;
-    height :25px;
-    background-color:#fffafa;
-    border : 2px solid #d2b48c;
-    position: absolute;
-    border-radius : 4px;
+    padding: 10px;
 }
 
 #text{
