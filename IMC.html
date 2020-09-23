@@ -1,7 +1,5 @@
 <!DOCTYPE HTML>
-
-<HTML lang="pt-br">
-
+<html lang="pt-br">
     <head>
         <link href="imc.css" rel ="stylesheet">
         <meta charset="UTF-8">
@@ -10,22 +8,23 @@
     </head>
     <body>
         <div class ="letter">
-        <h3>CALCULADORA IMC</h3>
-         <hr id="linha">
-        <form>
-            <label ><h5>SEXO</h5></label>
-            <button id="sex1">MULHER</button><button id="sex2">HOMEM</button> <br>
-            <label><h5>IDADE</h5></label>
-            <input id="text" type="text" nome="" placeholder ="EX : 35"> <label>anos<label> <br>
-            <label><h5>ALTURA</h5></label>
-            <input id="text" type="text" name="" placeholder ="EX : 1,60"> <label>m<label><br>
-            <label><h5>PESO</h5></label>
-            <input id="text" type="text" name="" placeholder ="EX : 62,5"> <label>kg<label><br>
-        </form>
-
-            <label><h5> ATIVIDADE FÍSICA :</h5> <label>
-            <button id="b1">Sedentária</button><button id="b2">Moderada</button><button id="b3">Intensa</button><br><br>
-            <button id="blast" type = "submit" value ="submit">Calcular</button>
+            <form>
+                <h3>CALCULADORA IMC</h3>
+                <hr id="linha">
+                <label ><h5>SEXO</h5></label>
+                <button id="sex1">MULHER</button><button id="sex2">HOMEM</button> <br>
+                <label><h5>IDADE</h5></label>
+                <input id="text" type="text" name="age" required placeholder ="EX : 35"> <label>anos<label> <br>
+                <label><h5>ALTURA</h5></label>
+                <input id="text1" type="text" name="height" required placeholder ="EX : 1,60"> <label>m<label><br>
+                <label><h5>PESO</h5></label>
+                <input id="text2" type="text" name="weight" required placeholder="EX : 62,5"> <label>kg<label><br>
+                <label><h5> ATIVIDADE FÍSICA :</h5> <label>
+                <button id="b1">Sedentária</button><button id="b2">Moderada</button><button id="b3">Intensa</button><br><br>
+                <button id="blast" type="submit">Calcular</button>
+                <div id="display"></div>
+            </form>
         </div>
+        <script src="imc.js"></script>
     </body>
 </html>
